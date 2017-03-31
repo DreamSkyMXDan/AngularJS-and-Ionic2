@@ -15,7 +15,7 @@ export interface ReportPost {
 }
 
 @Injectable()
-export class TMWData {
+export class MyData {
 
   constructor(public http: Http, public user: UserData) { }
   setHeaders(){
